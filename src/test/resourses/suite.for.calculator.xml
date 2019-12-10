@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="SuiteForCalculate">
+    
+    <test name="Test1">
+        <classes>
+            <class name="calculator.autotest.homework3.DivisionDoubleOperationTest"></class>
+            <class name="calculator.autotest.homework3.DivisionLongOperationTest"></class>
+            <class name="calculator.autotest.homework3.MultiLongOperationTest"></class>
+            <class name="calculator.autotest.homework3.MultiDoubleOperationTest"></class>
+            <class name="calculator.autotest.homework3.SubDoubleOperationTest"></class>
+            <class name="calculator.autotest.homework3.SubLongOperationTest"></class>
+            <class name="calculator.autotest.homework3.SumDoubleOperationTest"></class>
+            <class name="calculator.autotest.homework3.SumLongOperationTest"></class>
+
+
+        </classes>
+    </test>
+    
+</suite>
